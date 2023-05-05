@@ -190,7 +190,7 @@ body {
 
 .scills-container {
   padding-top: 120px;
-  padding-bottom: 108px;
+  padding-bottom: 120px;
   display: flex;
   column-gap: 24px;
   flex-wrap: nowrap;
@@ -238,24 +238,24 @@ body {
   text-align: center;
 }
 
-.container-section {
-  padding-top: 108px;
-  padding-bottom: 132px;
+.doing-container {
+  padding-bottom: 120px;
 }
 
 .doing-title {
   padding-bottom: 72px;
 }
 
-.doing-container {
+.doing-list {
+  flex-basis: calc((100%-48px) / 3);
   column-gap: 24px;
 }
 
-.team {
+.team-container {
   background-color: var(--light-color);
   margin: auto;
   width: 1440px;
-  height: 732px;
+  padding-bottom: 120px;
 }
 
 .team-title {
@@ -265,13 +265,12 @@ body {
 
 .team-list-top {
   background-color: var(--light-color);
+  flex-basis: calc((100%-72px) / 4);
   column-gap: 24px;
-  padding-bottom: 120px;
 }
 
 .team-list {
   background-color: var(--secondary-color);
-  flex-basis: calc((100%-72px) / 4);
 }
 
 .team-item {
@@ -331,7 +330,7 @@ body {
 
 .services-list {
   display: flex;
-  flex-basis: calc((100%-144) / 9);
+  flex-basis: calc((100%-144px) / 9);
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 54px;
@@ -378,10 +377,10 @@ body {
   letter-spacing: 0.02em;
   color: var(--light-color);
   margin-top: 16px;
-  width: 294px;
+  width: 264px;
 }
 
 .footer-container {
   padding-top: 100px;
-  padding-left: 156px;
+  padding-left: 0;
 }
